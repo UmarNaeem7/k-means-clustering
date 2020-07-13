@@ -24,6 +24,11 @@ public class Point {
     public void setX(float x) {
         this.x = x;
     }
+
+    @Override
+    public String toString() {
+        return "(" + x + ", " + y + ')';
+    } 
     
     public void print(){
         System.out.println("(x,y) = " + x + "," + y);
